@@ -1,0 +1,45 @@
+.body{
+    margin-top: 2rem;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    padding: 0 200px 0 200px;
+    gap: 30px;
+}
+
+.info-side{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    min-width: 400px;
+}
+
+.contact-title{
+    font-size: 1.5rem;
+}
+
+.contact-info{
+    font-size: 1.3rem;
+}
+
+.contact-info ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact-photo img{
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+}
