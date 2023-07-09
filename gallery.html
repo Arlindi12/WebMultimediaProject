@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="icons.css">
+    <title>Gallery</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="" alt="" id="logo">
+                <h1>Berisha Rent a Car</h1>
+            </div>
+            <div class="header-nav">
+                <ul>
+                    <li><a href="index.html">Berisha Rent a Car</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+					<li><a href="Sales-Graph.html">Sales-Graph</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+	<main class="body">
+		<div class="filter-buttons">
+			<button class="filter-button" data-category="all">All</button>
+			<button class="filter-button" data-category="photoshoot">Low Price</button>
+			<button class="filter-button" data-category="advertisement">Medium Price</button>
+			<button class="filter-button" data-category="wedding">High Price</button>
+		</div>
+
+		<div class="gallery">
+			<img src="/uploads/cars/Car1.webp" class="image photoshoot">
+			<img src="/uploads/cars/Car2.webp" class="image advertisement">
+			<img src="/uploads/cars/Car3.jpg" class="image wedding">
+			<img src="/uploads/cars/Car4.jpg" class="image photoshoot">
+			<img src="/uploads/cars/Car5.avif" class="image advertisement">
+			<img src="/uploads/cars/Car6.png" class="image wedding">
+			<img src="/uploads/cars/Car7.avif" class="image photoshoot">
+			<img src="/uploads/cars/Car8.webp" class="image advertisement">
+			<img src="/uploads/cars/Car9.jpg" class="image wedding">
+		</div>
+
+		<div class="video-container">
+			<video src="uploads/Video 1.mp4" controls></video>
+			<video src="uploads/Video 2.mp4" controls></video>
+			<video src="uploads/Video 3.mp4" controls></video>
+		  </div>
+
+        <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+              <div id="modalGallery" class="modal-gallery"></div>
+            </div>
+        </div>
+          
+        <script src="galleryModals.js"></script>
+		<script src="galleryfilter.js"></script>
+	</main>
+    <footer class="footer">
+		<div class="left-side-footer">
+		  <img src="uploads/rent-car-logo.webp" alt="">
+		  <h1>Berisha Rent a Car</h1>
+		</div>
+		<div class="right-side-footer">
+		  <ul>
+			<li class="icons-footer bounce"><i class="fab fa-facebook-f bounce icon"></i><a href="">Berisha Rent a car</a></li>
+			<li class="icons-footer bounce"><i class="fab fa-instagram bounce icon"></i><a href="">Berisharentacar</a></li>
+			<li class="icons-footer bounce"><i class="fab fa-tiktok bounce icon"></i><a href="">@Berisharentacar</a></li>
+			<li class="icons-footer bounce"><i class="fab fa-snapchat-ghost bounce icon"></i><a href="">@Berisharentacar</a></li>
+		  </ul>
+		</div>
+	</footer>
+</body>
+</html>

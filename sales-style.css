@@ -1,0 +1,11 @@
+/* Stili i konteinerit për grafikun */
+#myChart {
+  width: 700px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+/* Stili për butonin e ndryshimit të të dhënave */
+button {
+  margin-top: 10px;
+}
